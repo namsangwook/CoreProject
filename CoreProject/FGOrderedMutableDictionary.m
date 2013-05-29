@@ -33,8 +33,12 @@
 
 - (id)initWithObjects:(NSArray *)objects forKeys:(NSArray *)keys
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-value"
     [_array initWithArray:keys];
     [_dictionary initWithObjects:objects forKeys:keys];
+#pragma clang diagnostic pop
+    
     return self;
 }
 

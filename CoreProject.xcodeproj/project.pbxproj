@@ -468,6 +468,7 @@
 				3E057F691755C5AC0000C604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E057F6A1755C5AC0000C604 /* Build configuration list for PBXNativeTarget "CoreProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +477,7 @@
 				3E057F6C1755C5AC0000C604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
