@@ -23,6 +23,7 @@
 		3E057F591755C5AC0000C604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E057F341755C5AB0000C604 /* Foundation.framework */; };
 		3E057F611755C5AC0000C604 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E057F5F1755C5AC0000C604 /* InfoPlist.strings */; };
 		3E057F641755C5AC0000C604 /* CoreProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E057F631755C5AC0000C604 /* CoreProjectTests.m */; };
+		3E057F701755C5C80000C604 /* FGOrderedMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E057F6F1755C5C80000C604 /* FGOrderedMutableDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		3E057F601755C5AC0000C604 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E057F621755C5AC0000C604 /* CoreProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreProjectTests.h; sourceTree = "<group>"; };
 		3E057F631755C5AC0000C604 /* CoreProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreProjectTests.m; sourceTree = "<group>"; };
+		3E057F6E1755C5C80000C604 /* FGOrderedMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGOrderedMutableDictionary.h; sourceTree = "<group>"; };
+		3E057F6F1755C5C80000C604 /* FGOrderedMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGOrderedMutableDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 		3E057F381755C5AB0000C604 /* CoreProject */ = {
 			isa = PBXGroup;
 			children = (
+				3E057F6D1755C5B60000C604 /* Core */,
 				3E057F411755C5AB0000C604 /* FGAppDelegate.h */,
 				3E057F421755C5AB0000C604 /* FGAppDelegate.m */,
 				3E057F4A1755C5AB0000C604 /* MainStoryboard.storyboard */,
@@ -158,6 +162,15 @@
 				3E057F5F1755C5AC0000C604 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E057F6D1755C5B60000C604 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E057F6E1755C5C80000C604 /* FGOrderedMutableDictionary.h */,
+				3E057F6F1755C5C80000C604 /* FGOrderedMutableDictionary.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E057F641755C5AC0000C604 /* CoreProjectTests.m in Sources */,
+				3E057F701755C5C80000C604 /* FGOrderedMutableDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
