@@ -13,6 +13,8 @@
     NSMutableArray *_array;
 }
 
+
+// test
 - (id)init
 {
 	return [self initWithCapacity:0];
